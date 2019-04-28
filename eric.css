@@ -1,0 +1,44 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: auto;
+}
+
+.container > input {
+    margin-left: 37%;
+    margin-right: 14%;
+}
+
+.title{
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+form {
+    margin: auto;
+    display: grid;
+    width: 25%;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    text-align: center;
+    border: solid rgba(0, 0, 0, .2) 1px;
+    padding: 20px;
+}
+
+form > button {
+    width: 50%;
+    margin: auto;
+}
+
+form > input {
+    width: 70%;
+    margin: auto;
+}
+
+.none {
+    display: none;
+}

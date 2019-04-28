@@ -1,0 +1,10 @@
+.titleLineThrough, .completedLineThrough{
+    text-decoration: line-through;
+}
+button, input{
+    display: block;
+}
+img {
+    width: 400px;
+    height: auto;
+}
